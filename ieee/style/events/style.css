@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-brand{
+	padding:6px 4px !important;
+	}
+.navbar-text{
+	margin-top:19px;
+	}
+.jumbotron h1, .jumbotron .h1{
+	font-size:38px;
+	}	
+.jumbotron p{
+	font-size:16px;
+	}
+.btn-lg, .btn-group-lg > .btn{
+	font-size:14px;
+	}	
+.jumbotron img{
+	width:87%;
+	
+	}
+.row img{
+	width:95%;
+	}	
+.page{
+	padding-top:65px;
+	padding-bottom:30px;
+	border-bottom:1px solid #E2E1E1; 
+	}	
+.content{
+
+	width:90%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top: 5%;
+	padding-right: 5%;
+
+}	
+.content p{
+
+	display:block;
+	overflow: hidden;
+	clear: left;
+	text-align: justify;
+	width: 76%;
+}
+
+.content{
+	border-radius:20px;
+	border:2px solid #eee;
+	margin: auto;
+}
+
+.content h1 {
+
+	width:80%;
+	float:left;
+	font-size: 30px;
+	
+}
+@media screen and (max-width: 500px) {
+.content h1 {
+	font-size: 23px;
+}}
+
+.content h2 {
+
+	width:80%;
+	float:left;
+	font-size: 26px;
+	
+}
+.content h3 {
+
+	width:80%;
+	font-size: 23px;
+	float:left;
+}
+.content h4 {
+
+	width:80%;
+	float:left;
+	font-size: 22px;
+}
+.content img{
+	border: 1px transparent solid;
+	border-radius: 10px;
+
+}

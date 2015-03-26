@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-brand{
+	padding:6px 4px !important;
+	}
+.navbar-text{
+	margin-top:19px;
+	}
+.jumbotron h1, .jumbotron .h1{
+	font-size:38px;
+	}	
+.jumbotron p{
+	font-size:16px;
+	}
+.btn-lg, .btn-group-lg > .btn{
+	font-size:14px;
+	}	
+.jumbotron img{
+	width:87%;
+	
+	}
+.row img{
+	width:95%;
+	}	
+.page{
+	padding-top:65px;
+	padding-bottom:30px;
+	border-bottom:1px solid #E2E1E1; 
+	}	

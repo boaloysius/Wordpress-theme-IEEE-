@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-heading{
+	font-size:35px !important;
+	color:#89bc23 !important;
+	font-weight:700;
+	margin-left: 10% !important;
+	}
+.main-heading span{
+	color:white;
+	}	
+.main-jumbotron{
+	width:100% !important;
+	background:black;
+	}	
+.fac-row{
+	    margin-left:5% !important;
+		margin-right:5% !important;
+		position:relative !important;
+		top:-15px;
+	}
+img{
+	width:100% !important;
+	}		
+.fac-name{
+	font-size: 28px !important;
+    font-weight: 600 !important;
+	color:#89bc23 !important;
+	}	
+.fac-para{
+	font-size:14px !important;
+	color:#666 !important;
+	}	
+.fac-des{
+	font-size:20px;
+	color:#89bc23 !important;
+	}	
+	
+.fac-con-row1{
+	margin-top:20% !important;
+	}	
+.color{
+	color:#89bc23;
+	}	
+.mem-name{
+	font-size: 18px !important;
+    font-weight: 600 !important;
+	color:#89bc23 !important;
+	}	
+.mem-des{
+	font-size:16px;
+	color:#89bc23 !important;
+	font-weight: 600 !important;
+	}	
+.mem-row{
+	
+	margin-left:-3%;
+	}	
+.fac-col h4{
+	font-size:16px !important;
+	color:#666 !important;
+	}	
+body{
+	background:#c1e87c;
+	}	
+.jumbotron{
+	margin-bottom:0 !important;
+	border-radius:0 !important;
+	}
+.divider{
+	height:15px;
+	}	
+	
