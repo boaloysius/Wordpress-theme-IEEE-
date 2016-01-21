@@ -12,6 +12,7 @@
 						<a href="#page3"><i class="fa fa-fw fa-newspaper-o self"></i><span>Links</span></a>
                         
                         <a href="#page5"><i class="fa fa-fw fa-newspaper-o self"></i><span>Contact Us</span></a>
+                        <a href="team/team.html"><i class="fa fa-fw fa-newspaper-o self"></i><span>Our Team</span></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>

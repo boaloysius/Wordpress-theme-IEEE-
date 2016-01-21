@@ -499,7 +499,7 @@
 			
 			
 				
-			<g id="Layer_1_2_ logo" class="logo">
+			<g id="Layer_1_2_ logo" class="logo" onclick="myFunction()">
 			<g>
 				<path class="st7" d="M532.124,65.793V29.292h10.009v36.501H532.124z"/>
 				<path class="st7" d="M547.431,65.793V29.292h28.259v7.064h-17.661v7.653h15.896v7.065h-15.896v7.653h17.661v7.064H547.431z"/>
@@ -567,4 +567,9 @@
 			<!--logo-->
 		</svg>
 </div>
+<script>
+function myFunction() {
+    window.open("http://www.ieee.org/index.html");
+}
+</script>
 </div><!--page9-->

@@ -5,7 +5,7 @@
 <div>
 <h1 class="page-heading">COntAcT</h1>
 <div class="contact-div">
-<div><div><img src="<?php echo $directory ?>images/mail.gif" class="email"/></div><a>ieee@nitc.ac.in</a></div>
+<div><div><img src="<?php echo $directory ?>images/mail.gif" class="email"/></div><a>ieeesb@nitc.ac.in</a></div>
 <div><div><img src="<?php echo $directory ?>images/phone.gif" class="phone"/></div><a>+919961509972</a></div>
 <div><div><img  src="<?php echo $directory ?>images/google.gif"class="google"/></div><a href="https://plus.google.com/110847308612303935604/posts">GOOGLE+</a></div>
 <div><div><img  src="<?php echo $directory ?>images/fb.gif" class="fb"/></div><a href="https://www.facebook.com/IeeeNitc">FACEBOOK</a></div>

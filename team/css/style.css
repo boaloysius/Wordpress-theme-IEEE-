@@ -70,5 +70,14 @@ body{
 	}
 .divider{
 	height:15px;
+	}
+.secretary{
+	width:95.5% !important;
+	}	
+.secretary img {
+	width:90%;
+	}		
+.jumbotron{
+	min-height:284px !important;
 	}	
 	

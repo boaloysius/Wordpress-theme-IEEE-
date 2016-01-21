@@ -26,7 +26,7 @@
 				$gallery_images=get_field("gallery");
 				get_template_part("details");
 			endif;	
-		 else: echo "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>gallery not found <br/>";
+		        else:
 			get_template_part("details");
 	
 		endif;

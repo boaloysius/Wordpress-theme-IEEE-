@@ -13,9 +13,10 @@
 	    <title>IEEE Events</title>
 
 	    <!-- Bootstrap core CSS -->
-
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 	    <link href="<?php  echo $directory; ?>style/events/style.css" rel="stylesheet"/>    
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
      </head>
 <!-- body -->
 	   <body>
@@ -43,22 +44,22 @@
                 $count_2014=0;
                 $count_2015=0;
                 $list_2014=" <li class=\"dropdown\">";
-                $list_2014.="<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">2014<span class=\"caret\"></span></a>";
+                $list_2014.="<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\" href=\"\">2014<span class=\"caret\"></span></a>";
                 $list_2014.="<ul class=\"dropdown-menu\" role=\"menu\">";
                 
                 $list_2015=" <li class=\"dropdown\">";
-                $list_2015.="<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">2015<span class=\"caret\"></span></a>";
+                $list_2015.="<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\" href=\"\">2015<span class=\"caret\"></span></a>";
                 $list_2015.="<ul class=\"dropdown-menu\" role=\"menu\">";
                 $list_end="</li></ul>";
                 while($events -> have_posts()): $events -> the_post();
                 if(get_field("year")==2014):
                   $list_2014.= "<li><a href=\"#{$count}\">";
-                  $list_2014.= get_the_title();
+                  $list_2014.= get_field('event_name');
                   $list_2014.= "</a></li>";
                   $count_2014++;
                   elseif(get_field("year")==2015):
                   $list_2015.= "<li><a href=\"#{$count}\">";
-                  $list_2015.= get_the_title();
+                  $list_2015.=  get_field('event_name');
                   $list_2015.= "</a></li>";
                   $count_2015++;
                 endif;
